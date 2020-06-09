@@ -29,6 +29,6 @@ Example 2:
   </li>
 </ul>
 
-Noise is used to reduce Moire effect on result image.
+Adding Noise to Pin Positions is used to reduce <a href='https://en.wikipedia.org/wiki/Moir%C3%A9_pattern'>Moire effect</a> on result image.
 
 A video example of string art conversion process (you need libx265 codec to play it): <a href='https://github.com/a-m-farahani/StringArt/blob/master/in_process.mp4'>Link</a>
