@@ -20,12 +20,12 @@ Example 2:
   <li> 
     <b>Circle:</b> <br/>
       converter = StringImageCircle(img_path, radius, nPins) <br/>
-      result_img = converter.convert(max_lines=2500)
+      result_img = converter.Convert(max_lines=2500)
   </li>
   <li> 
     <b>Square:</b> <br/>
       converter = StringImageSquare(img_path, dim, nPins, noise=5) <br/>
-      result_img = converter.convert(max_lines=2500)
+      result_img = converter.Convert(max_lines=2500)
   </li>
 </ul>
 
