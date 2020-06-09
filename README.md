@@ -1,5 +1,5 @@
 # StringArt
-Making String Art image based on "String Art: Towards Computational Fabrication" article.
+Making String Art image based on <a href="https://doi.org/10.1111/cgf.13359">String Art: Towards Computational Fabrication</a> article.
 
 Example 1:
 <p align="left">
@@ -30,3 +30,5 @@ Example 2:
 </ul>
 
 Noise is used to reduce Moire effect on result image.
+
+A video example of string art conversion process (you need libx265 codec to play it): <a href='https://github.com/a-m-farahani/StringArt/blob/master/in_process.mp4'>Link</a>
