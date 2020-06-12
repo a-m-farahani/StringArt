@@ -135,7 +135,7 @@ class StringImageSquare:
     for i in range(dimension, 0, -step_size):
       PinPos.append((dimension,i))  # (d,d) -> (d,0)
     for i in range(dimension, 0, -step_size):
-      PinPos.append((i,0))  # (d,d) -> (0,0)
+      PinPos.append((i,0))  # (d,0) -> (0,0)
     
 
     # Remove duplicate pins in corners
@@ -170,9 +170,9 @@ class StringImageSquare:
     return (x.astype(np.int)-1, y.astype(np.int)-1)
 
   def LineScore(self, line):
-    #penalty = sum(line==0)
     score = np.sum(line)
     score = score / (line.shape[0] + 0.001)
+    #penalty = sum(line <= 10)
     #score = 0.6*score + 0.4*penalty
     score_mean = np.mean(line) if len(line)>0 else 0
     return score, score_mean
