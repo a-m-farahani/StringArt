@@ -117,7 +117,6 @@ class StringImageSquare:
     img = np.asarray(im_croped).copy()
     
     img = 255 - img
-    img[img>200] = 255
     
     img_res = np.ones(img.shape)*255
     return img, img_res
