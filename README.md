@@ -32,3 +32,6 @@ Example 2:
 Adding Noise to Pin Positions is used to reduce <a href='https://en.wikipedia.org/wiki/Moir%C3%A9_pattern'>Moire effect</a> in result image.
 
 A video example of string art conversion process (you need libx265 codec to play it): <a href='https://github.com/a-m-farahani/StringArt/blob/master/in_process.mp4'>Link</a>
+<br/>
+To see the lines information(starting pin and ending pin of each line) use converter.Lines: <br/>
+print(converter.Lines)
