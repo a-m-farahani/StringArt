@@ -15,19 +15,18 @@ Example 2:
   <img src="https://github.com/a-m-farahani/StringArt/blob/master/images/worldmap_result_square.jpg" width="200" title="Result - Square">
 </p>
 
-<b>Usage:</b>
-<ul>
-  <li> 
-    <b>Circle:</b> <br/>
-      converter = StringImageCircle(img_path, radius, nPins) <br/>
-      result_img = converter.Convert(max_lines=2500)
-  </li>
-  <li> 
-    <b>Square:</b> <br/>
-      converter = StringImageSquare(img_path, dim, nPins, noise=5) <br/>
-      result_img = converter.Convert(max_lines=2500)
-  </li>
-</ul>
+<b>Usage:</b> 
+* <b>Circle:</b> <br/> 
+```python
+converter = StringImageCircle(img_path, radius, nPins)
+result_img = converter.Convert(max_lines=2500)
+```
+
+* <b>Square:</b>
+```python
+converter = StringImageSquare(img_path, dim, nPins, noise=5)
+result_img = converter.Convert(max_lines=2500)
+```
 
 Adding Noise to Pin Positions is used to reduce <a href='https://en.wikipedia.org/wiki/Moir%C3%A9_pattern'>Moire effect</a> in result image.
 
