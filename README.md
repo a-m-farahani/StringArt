@@ -1,5 +1,5 @@
 # StringArt
-Making String Art images based on <a href="https://doi.org/10.1111/cgf.13359">String Art: Towards Computational Fabrication</a> with a single connected thread or an Eulerian path in a graph of N vertices.
+Making String Art images based on <a href="https://doi.org/10.1111/cgf.13359">String Art: Towards Computational Fabrication</a> with a single connected thread or a path in a graph of N vertices that makes an image.
 
 Example 1:
 <p align="left">
